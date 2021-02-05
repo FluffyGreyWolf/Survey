@@ -1,0 +1,19 @@
+body {
+    background-color: #cccccc;
+    text-align: center;
+}
+
+#top {
+    background-color: #a6a6a6;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 90px;
+    padding: 1px;
+}
+
+form {
+    padding: 2%;
+    background-color: #a6a6a6;
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <h1 id="title">Survey</h1>
+        <p id="description">Just a survey about stuff</p>
+      </div>
+      
+      <form id="survey-form">
+        <label id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required> <br><br>
+        <label id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your Email" required> <br> <br>
+        <label id="number-label">Number between 1-10</label><br>
+        <input type="number" id="number" min="1" max="10" placeholder="Enter a number"><br><br>
+        
+        <p id="dropdown-label">What is your current role</p>
+        <select id="dropdown" name="role">
+          <option value="student">Student</option>
+          <option value="parttime">Part time job</option>
+          <option value="fulltime">Full time job</option>
+          <option value="other">Other</option>
+        </select><br>
+        
+        <p>What is your gender?</p>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" value="nottosay" checked>
+        <label for="nottosay">Prefer not to say</label><br>
+        
+        <p>What fruits do you like the most?</p>
+        <input type="checkbox" id="apple" value="fruit">
+        <label for="apple">Apple</label><br>
+        <input type="checkbox" id="banana" value="fruit">
+        <label for="banana">Banana</label><br>
+        <input type="checkbox" id="watermelon" value="fruit">
+        <label for="watermelon">Watermelon</label><br>
+       
+        <p>Please leave some additional comments about this survey:</p>
+        <textarea id="textarea" rows="3" cols="45"></textarea><br>
+     
+        <input type="submit" id="submit" value="Send your anwsers">
+      </form>
+</body>
+</html>
